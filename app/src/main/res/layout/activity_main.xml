@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+W
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <EditText
+                android:id="@+id/faturatutari"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight=".27"
+                android:hint="Tutar"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/faturatarihi"
+                android:clickable="true"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:layout_width="0dp"
+                android:layout_weight=".30"
+                android:layout_marginRight="7dp"
+                android:focusable="false"
+                android:hint="Tarih"/>
+
+            <Spinner
+                android:id="@+id/faturaturu"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight=".51"
+                android:background="@android:drawable/btn_dropdown"
+                android:layout_marginRight="7dp"
+                android:spinnerMode="dropdown"
+                />
+            <Button
+                android:id="@+id/btnEkle"
+                android:text="Ekle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".20" />
+
+        </LinearLayout>
+
+
+
+        <ScrollView
+            android:id="@+id/ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <TableLayout
+                android:id="@+id/tableList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@color/colorPrimary"
+                android:showDividers="middle"
+                android:stretchColumns="1">
+
+            </TableLayout>
+        </ScrollView>
+
+
+
+</LinearLayout>

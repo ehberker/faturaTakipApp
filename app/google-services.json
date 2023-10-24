@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "660691748090",
+    "firebase_url": "https://faturatakipapp.firebaseio.com",
+    "project_id": "faturatakipapp",
+    "storage_bucket": "faturatakipapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660691748090:android:3a431a3e17886758",
+        "android_client_info": {
+          "package_name": "com.fatura.faturatakipapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660691748090-m2eq4aebhk5jg6qvgo6nl0ujb11elts2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatura.faturatakipapp",
+            "certificate_hash": "8117b379355e1f44706a7f983372767fab5ec0b3"
+          }
+        },
+        {
+          "client_id": "660691748090-h0gvpv5pcr1vn6snqp9fvt8i2rso19h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBdCp-GnYHrJj0HHABXQW9B4hyYY9SxBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660691748090-h0gvpv5pcr1vn6snqp9fvt8i2rso19h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
